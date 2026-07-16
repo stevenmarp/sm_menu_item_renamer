@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_menu_renamer_manager" model="res.groups">
+        <field name="name">Menu Renamer Manager</field>
+        <field name="category_id" ref="base.module_category_customizations"/>
+        <field name="comment">Users allowed to manage rename rules for menu items.</field>
+    </record>
+
+    <record id="base.group_system" model="res.groups">
+        <field name="implied_ids" eval="[(4, ref('group_menu_renamer_manager'))]"/>
+    </record>
+</odoo>
