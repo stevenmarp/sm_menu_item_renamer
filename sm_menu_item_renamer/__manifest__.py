@@ -36,6 +36,6 @@ no Studio. Pick the menu, type the new name, refresh the browser.
     "installable": True,
     "application": False,
     "auto_install": False,
-    "price": 15.00,
+    "price": 35.00,
     "currency": "USD",
 }
